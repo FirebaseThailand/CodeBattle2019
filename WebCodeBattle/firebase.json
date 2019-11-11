@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "target": "fire-dev-day-2019",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Code Battle</string>
+    <string name="caption_hint">What is on your mind?</string>
+    <string name="share">Share</string>
+    <string name="invalid_image">Please take a photo.</string>
+    <string name="invalid_caption">Please type the caption.</string>
+    <string name="uploading">Sending...</string>
+    <string name="upload_image_failure">Failed to upload an image.</string>
+    <string name="upload_post_failure">Failed to upload the post.</string>
+    <string name="upload_post_successful">Upload the post successful.</string>
+</resources>

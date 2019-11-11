@@ -1,0 +1,12 @@
+platform :ios, '13.0'
+
+target 'iOSCodeBattle' do
+  use_frameworks!
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'SVProgressHUD'
+  pod 'IQKeyboardManagerSwift'
+
+end

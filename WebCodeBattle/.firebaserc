@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "fir-devday"
+  },
+  "targets": {
+    "fir-devday": {
+      "hosting": {
+        "fire-dev-day-2019": [
+          "fire-dev-day-2019"
+        ]
+      }
+    }
+  }
+}
