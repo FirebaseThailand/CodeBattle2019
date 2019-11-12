@@ -105,8 +105,7 @@ class MainActivity : AppCompatActivity() {
                     throw task.exception!!
                 }
                 reference.downloadUrl
-            }
-            .addOnCompleteListener { task: Task<Uri> ->
+            }.addOnCompleteListener { task: Task<Uri> ->
                 val url = task.result.toString()
                 onUploadImageSuccess(url)
             }.addOnFailureListener {
